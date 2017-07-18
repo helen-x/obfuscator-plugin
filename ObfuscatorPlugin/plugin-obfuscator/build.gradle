@@ -1,0 +1,14 @@
+apply plugin: 'groovy'
+//启用Jitpack 插件
+apply plugin: 'com.github.dcendents.android-maven'
+
+//设置Jitpack发布的Group
+//我的github账号是helen-x, 对应我的group就是com.github.helen-x
+group='com.github.helen-x'
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.tools.build:gradle:2.1.0'
+}
