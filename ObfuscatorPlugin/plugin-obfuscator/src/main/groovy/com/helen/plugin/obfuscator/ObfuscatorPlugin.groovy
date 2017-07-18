@@ -16,7 +16,7 @@ import org.gradle.api.Project
 public class ObfuscatorPlugin implements Plugin<Project> {
 
     Project project;
-    final String OBFUSCATOR_SDK_VERSION = 'com.github.helen-x:obfuscator:0.1';
+    final String OBFUSCATOR_SDK_VERSION = 'com.github.helen-x:obfuscator:1.0';
 
     @Override
     void apply(Project project) {
